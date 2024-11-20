@@ -1,0 +1,8 @@
+[Unit]
+Description=My Startup Script
+
+[Service]
+ExecStart=/home/ehab/Documents/02_Bash/systemd/systemd.sh
+
+[Install]
+WantedBy=multi-user.target
