@@ -1,6 +1,11 @@
 ## Bash Scripts
 
-### Class Creator Script
+### Table of Contents
+
+- [CppClassGenerator (Create CPP Class)](#cppclassgenerator-create-cpp-class)
+- [CppProjectMKFile (CPP Project with Make)](#cppprojectmkfile-cpp-project-with-make)
+
+### CppClassGenerator (Create CPP Class)
 
 Automate the creation of C++ class files. The script prompts the user for essential information and generates the corresponding `.hpp` and `.cpp` files. The generated files include a namespace, class structure, and boilerplate copyright headers.
 
@@ -30,7 +35,7 @@ Automate the creation of C++ class files. The script prompts the user for essent
 
 ---
 
-### CppProjectMKFile.sh
+### CppProjectMKFile (CPP Project with Make)
 
 generates a basic C++ project structure, including directories and starter files. The structure is designed to streamline development with clear organization and a ready-to-use `Makefile`.
 
