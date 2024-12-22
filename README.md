@@ -27,3 +27,34 @@ Automate the creation of C++ class files. The script prompts the user for essent
 - Inside the folder:
   - `ExampleClass.hpp` with the class declaration.
   - (Optional) `ExampleClass.cpp` with the class implementation.
+
+---
+
+### CppProjectMKFile.sh
+
+generates a basic C++ project structure, including directories and starter files. The structure is designed to streamline development with clear organization and a ready-to-use `Makefile`.
+
+#### Features
+
+- Creates a project directory with the given name.
+- Generates subdirectories for `src` (source code), `inc` (header files), and `build` (compiled files).
+- Provides a starter `main.cpp` and `main.hpp` file with basic content.
+- Includes a `Makefile` for compiling the project.
+
+#### Output Project Structure
+
+```
+<project_name>/
+├── build/
+│   └── Makefile
+├── inc/
+│   └── main.hpp
+└── src/
+    └── main.cpp
+```
+
+## Dependencies
+
+- `bash` shell
+- GNU `make`
+- `g++` (GNU C++ compiler)
