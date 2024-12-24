@@ -4,6 +4,8 @@
 
 - [CppClassGenerator (Create CPP Class)](#cppclassgenerator-create-cpp-class)
 - [CppProjectMKFile (CPP Project with Make)](#cppprojectmkfile-cpp-project-with-make)
+- [InternetSpeedTest](#internetspeedtest)
+
 
 ### CppClassGenerator (Create CPP Class)
 
@@ -58,8 +60,13 @@ generates a basic C++ project structure, including directories and starter files
     └── main.cpp
 ```
 
-## Dependencies
+#### Dependencies
 
-- `bash` shell
 - GNU `make`
 - `g++` (GNU C++ compiler)
+
+---
+
+### InternetSpeedTest
+
+This script automates the process of checking your internet speed using the `speedtest-cli` tool. It ensures that `speedtest-cli` is installed on your system and runs a speed test to display the current internet speed.
