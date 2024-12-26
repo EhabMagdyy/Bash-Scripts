@@ -2,13 +2,13 @@
 
 ### Table of Contents
 
-- [CppClassGenerator (Create CPP Class)](#cppclassgenerator-create-cpp-class)
-- [CppProjectMKFile (CPP Project with Make)](#cppprojectmkfile-cpp-project-with-make)
-- [InternetSpeedTest](#internetspeedtest)
-- [SystemReport](#systemreport)
+- [1.CppClassGenerator (Create CPP Class)](#1cppclassgenerator-create-cpp-class)
+- [2.CppProjectMKFile (CPP Project with Make)](#2cppprojectmkfile-cpp-project-with-make)
+- [3.InternetSpeedTest](#3internetspeedtest)
+- [4.SystemReport](#4systemreport)
 
 
-### CppClassGenerator (Create CPP Class)
+### 1.CppClassGenerator (Create CPP Class)
 
 Automate the creation of C++ class files. The script prompts the user for essential information and generates the corresponding `.hpp` and `.cpp` files. The generated files include a namespace, class structure, and boilerplate copyright headers.
 
@@ -38,7 +38,7 @@ Automate the creation of C++ class files. The script prompts the user for essent
 
 ---
 
-### CppProjectMKFile (CPP Project with Make)
+### 2.CppProjectMKFile (CPP Project with Make)
 
 generates a basic C++ project structure, including directories and starter files. The structure is designed to streamline development with clear organization and a ready-to-use `Makefile`.
 
@@ -68,13 +68,13 @@ generates a basic C++ project structure, including directories and starter files
 
 ---
 
-### InternetSpeedTest
+### 3.InternetSpeedTest
 
 This script automates the process of checking your internet speed using the `speedtest-cli` tool. It ensures that `speedtest-cli` is installed on your system and runs a speed test to display the current internet speed.
 
 ---
 
-### SystemReport
+### 4.SystemReport
 
 This Bash script provides comprehensive details about your system's hardware and software configurations. It displays information such as hostname, kernel version, CPU details, memory usage, disk space, network settings, and GPU details. The script uses various system commands to fetch and format this data.
 
