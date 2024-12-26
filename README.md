@@ -6,6 +6,7 @@
 - [2.CppProjectMKFile (CPP Project with Make)](#2cppprojectmkfile-cpp-project-with-make)
 - [3.InternetSpeedTest](#3internetspeedtest)
 - [4.SystemReport](#4systemreport)
+- [5.AliasGenerator](#5aliasgenerator)
 
 
 ### 1.CppClassGenerator (Create CPP Class)
@@ -107,3 +108,29 @@ This Bash script provides comprehensive details about your system's hardware and
 
 - **GPU Information**:
   - GPU details if `lspci` is available
+
+---
+
+### 5.AliasGenerator
+
+This Bash script simplifies the process of creating an alias for a command by automatically adding it to your `.bashrc` file. Aliases provide shortcuts for commonly used commands, enhancing productivity in the terminal.
+
+#### Example
+
+##### Input
+```bash
+Enter the command: ls -l
+Enter the alias: ll
+```
+
+##### Result in `.bashrc`
+```bash
+# alias for ls -l -> ll
+alias ll='ls -l'
+```
+
+#### Notes
+
+- The alias becomes active only in new Bash sessions. To use it immediately, open a new terminal or run `source ~/.bashrc`.
+- If `.bashrc` does not exist, the script will create an empty `.bashrc` file before adding the alias.
+- Be cautious of overwriting existing aliases with the same name; ensure unique alias names.
