@@ -8,6 +8,7 @@
 - [4.SystemReport](#4systemreport)
 - [5.AliasGenerator](#5aliasgenerator)
 - [6.YouTubeDownloader](#6youtubedownloader)
+- [7.Weather](#7weather)
 
 ---
 
@@ -205,3 +206,10 @@ Download completed successfully!
 - **Format**: Videos are downloaded in MP4 format, and audio in MP3.
 - **Dependencies**: The script relies on `yt-dlp` for downloading content.
 - Ensure you have sufficient storage space for large playlists.
+
+
+---
+
+### 7.Weather
+
+This simple Bash script allows you to check the current weather for a specified city using the `wttr.in` service. It prompts the user to enter a city name and then fetches the weather information for that city.
