@@ -9,6 +9,7 @@
 - [5.AliasGenerator](#5aliasgenerator)
 - [6.YouTubeDownloader](#6youtubedownloader)
 - [7.Weather](#7weather)
+- [8.CurrencyExchange](#8currencyexchange)
 
 ---
 
@@ -213,3 +214,18 @@ Download completed successfully!
 ### 7.Weather
 
 This simple Bash script allows you to check the current weather for a specified city using the `wttr.in` service. It prompts the user to enter a city name and then fetches the weather information for that city.
+
+---
+
+### 8.CurrencyExchange
+
+This Bash script allows you to check the latest exchange rates for a selected base currency using the [ExchangeRate-API](https://www.exchangerate-api.com/). It uses `rofi` for interactive selection of the base currency and displays the exchange rates in a searchable list.
+
+> Uses `rofi` to let you select or enter a base currency from a predefined list for an interactive selection.
+
+#### Prerequisites
+
+Before running the script, ensure you have the following installed:
+- `curl`: For making API requests.
+- `jq`: For parsing JSON responses.
+- `rofi`: For interactive selection and display.
