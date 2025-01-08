@@ -242,3 +242,15 @@ This script allows you to fetch and display basic information about a country us
 Before running the script, ensure you have the following installed:
 - `curl`: For making API requests.
 - `jq`: For parsing JSON responses.
+
+---
+
+### 10.CryptoCurrency
+
+This script allows you to fetch the current price of a cryptocurrency and convert it to a specified fiat currency using the [CoinGecko API](https://www.coingecko.com/en/api). It prompts the user to enter a cryptocurrency name (e.g., Bitcoin, Ethereum) and a target currency (e.g., USD, EUR), then displays the current conversion rate.
+
+#### Prerequisites
+
+Before running the script, ensure you have the following installed:
+- `curl`: For making API requests.
+- `jq`: For parsing JSON responses.
