@@ -239,4 +239,6 @@ This script allows you to fetch and display basic information about a country us
 
 #### Prerequisites
 
-The script is written in Bash and uses `curl` to make an API request and `jq` to parse and format the JSON response.
+Before running the script, ensure you have the following installed:
+- `curl`: For making API requests.
+- `jq`: For parsing JSON responses.
