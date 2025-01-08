@@ -11,6 +11,7 @@
 - [7.Weather](#7weather)
 - [8.CurrencyExchange](#8currencyexchange)
 - [9.CountryInfo](#9countryinfo)
+- [10.CryptoCurrency](#10cryptocurrency)
 
 ---
 
