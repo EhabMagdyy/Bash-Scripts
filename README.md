@@ -10,6 +10,7 @@
 - [6.YouTubeDownloader](#6youtubedownloader)
 - [7.Weather](#7weather)
 - [8.CurrencyExchange](#8currencyexchange)
+- [9.CountryInfo](#9countryinfo)
 
 ---
 
@@ -229,3 +230,13 @@ Before running the script, ensure you have the following installed:
 - `curl`: For making API requests.
 - `jq`: For parsing JSON responses.
 - `rofi`: For interactive selection and display.
+
+---
+
+### 9.CountryInfo
+
+This script allows you to fetch and display basic information about a country using the [REST Countries API](https://restcountries.com/). It prompts the user to enter a country name, retrieves the relevant data, and prints details such as the country's name, capital, region, and population.
+
+#### Prerequisites
+
+The script is written in Bash and uses `curl` to make an API request and `jq` to parse and format the JSON response.
